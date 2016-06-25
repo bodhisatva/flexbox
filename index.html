@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex-rules.css">
+  <link rel="stylesheet" href="css/font-styles.css">
+  <link rel="stylesheet" href="css/layouts.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <!-- Add your site or application content here -->
+  <div class="container">
+    <section>
+      <h1 class="center ">Hello <span class="highlight-blue xl">Flex!</span> This is a <span class="highlight-blue xl">flexbox</span> proto</h1>
+      <hr class="thick-line" />
+    </section>
+    <section class="rule">
+      <h3>Flex container streches across the viewport with <span class="highlight-red">display: flex<span></h3>
+      <div class="flex-container">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+      </div>
+    </section>
+    <section class="rule">
+      <h3>Flex container wraps its contents with <span class="highlight-red">display: inline-flex<span></h3>
+      <div class="flex-inline">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+      </div>
+    </section>
+    <section class="rule">
+      <h3>The direction of flex flow can be modified with <span class="highlight-red">flex-direction: row-reverse<span></h3>
+      <div class="flex-reverse">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+      </div>
+    </section>
+    <section class="rule">
+      <h3>Flow from top to bottom <span class="highlight-red">flex-direction: column<span></h3>
+      <div class="flex-column">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+      </div>
+    </section>
+    <section class="rule">
+      <h3>Reversing it from bottom to top <span class="highlight-red">flex-direction: column-reverse<span></h3>
+      <div class="flex-column-reverse">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+      </div>
+    </section>
+    <section class="rule">
+      <h3>Flex wrap when content overflows <span class="highlight-red">flex-wrap: wraps<span></h3>
+      <div class="flex-container-overflow">
+        <div class="flex-item">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+        <div class="flex-item">Flex item 4</div>
+        <div class="flex-item">Flex item 5</div>
+        <div class="flex-item">Flex item 6</div>
+      </div>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = 'https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.container {
+  padding: 5em;
+}
+
+.rule {
+  padding-top: 2.5em;
+}
+
+.thick-line {
+  background-color: #C5EFF7;
+  height: 5px;
+  border: none;
+}
