@@ -65,3 +65,18 @@
   border: solid 4px #000;
   flex-direction: column-reverse;
 }
+
+.flex-flow {
+  width:55%;
+  height: 15em;
+  display: flex;
+  flex-flow: column wrap;
+  border: solid 4px #000;
+}
+.flex-flow-reverse{
+  width:55%;
+  height: 15em;
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  border: solid 4px #000;
+}
